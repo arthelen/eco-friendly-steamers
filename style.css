@@ -1,0 +1,132 @@
+
+body {
+  background-color: #EBDDD8;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/carpet clean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: #EBDDD8;
+  height: 100px;
+}
+
+img {
+  background-color: #44492B;
+  height: 85px;
+  position: absolute;
+  top: 20px;
+  left: 26px;
+}
+ 
+.nav ul {
+  background-color: #44492B;
+  list-style: none;
+  margin: 0;
+  padding: 30px 0;
+  text-align: right;
+  border: solid 3px #44492B;
+}
+
+.nav li {
+  background-color: #44492B;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: #44492B;
+}
+
+section {
+  background-color: #CDD1B8;
+  width: 840px;
+  margin: 100px auto 0 auto;
+  padding-top: 5px;
+}
+
+.section-box {
+  display: inline;
+  width: 400px;
+  height: 350px;
+  vertical-align: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+#quote-offer-container {
+  background-color: #CDD1B8;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+#quote-offer-container h1 {
+  font-family: 'Carter One', cursive;
+  color: #44492B;
+  font-size: 40px;
+}
+
+#quote-offer-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#quote-form-container {
+  background-color: #CDD1B8;
+/*   padding: 10px; */
+/*   margin-bottom: 20px; */
+  height: 200px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-style: bold;
+}
+
+#quote-form {
+  background-color: #CDD1B8;
+  padding-bottom: 50px;
+}
+
+#quote-form input {
+  font-family: 'Montserrat', sans-serif;
+  border: solid 2px #44492B;
+  width: 300px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* fixes the phone input field so it is in line with the others */
+#phone-field input {
+  margin-right: 8px;
+}
+
+button {
+  border: none;
+  background-color: #44492B;
+  color: white;
+  height: 40px;
+  width:  80px;
+  font-family: 'Carter One', cursive;
+/*   margin-left: 300px; */
+}
+
+a:link {
+  color: white;
+  font-family: 'Carter One', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CDD1B8;
+}
+
+a:visited {
+  color: white;
+}
